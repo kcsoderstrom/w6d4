@@ -1,0 +1,52 @@
+html, body, figure, ul, li, img {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font: inherit;
+  display: block;
+  text-decoration: inherit;
+}
+
+figure {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+ul {
+  position: relative;
+  height: 300px;
+  width:300px;
+  margin: 40px auto;
+  overflow: hidden;
+}
+
+li {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0%;
+  display: none;
+  transition: left 1s linear;
+}
+
+li.active {
+  display: block;
+}
+
+img {
+  border: 5px solid #25ABCD;
+  position: absolute;
+  width: 290px;
+  height: auto;
+  bottom: 0%;
+}
+
+li.next {
+  left: 100%;
+}
+
+li.prev {
+  left: -100%;
+}

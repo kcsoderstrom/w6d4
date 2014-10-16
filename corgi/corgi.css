@@ -1,0 +1,30 @@
+html, body, ul, li, section, div {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font: inherit;
+}
+
+body{
+  font-family: sans-serif;
+}
+
+a.active {
+  font-weight: bold;
+}
+
+section.tab-pane {
+  display: none;
+  opacity: 100;
+}
+
+section.tab-pane.active {
+  display: block;
+  transition: opacity 0.5s;
+}
+
+section.tab-pane.transitioning {
+  display: block;
+  opacity: 0;
+  transition: opacity 0.5s;
+}

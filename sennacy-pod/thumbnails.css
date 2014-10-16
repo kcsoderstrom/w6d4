@@ -1,0 +1,80 @@
+html, body, ul, li, img, a {
+  display: block;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  text-decoration: inherit;
+  color: inherit;
+}
+
+body {
+  background: #EEE;
+}
+
+figure {
+  margin: 50px auto;
+}
+
+figure.thumbnails {
+  width: 350px;
+}
+
+figure.active {
+  float: left;
+  height: 200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+figure.gutter {
+  float: left;
+  display: block;
+  width: 100%;
+  margin: 20 auto;
+}
+
+a.nav {
+  font-size: 30px;
+  float: left;
+  width: 10%;
+  text-align: center;
+}
+
+
+ul {
+  float: left;
+  width: 80%;
+  height: 36px;
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+
+li {
+  background: white;
+  float: left;
+  width: 20%;
+}
+
+li:hover {
+  background: yellow;
+  transform:rotate(720deg);
+  transition: transform 1s;
+}
+
+img {
+  display: block;
+  width: auto;
+  height: 100%;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+
+

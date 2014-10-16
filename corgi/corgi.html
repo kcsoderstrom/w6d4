@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="jquery-2.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="./corgi.js"></script>
+    <link href="./corgi.css" rel="stylesheet" type="text/css">
+    <title>Corgis ok</title>
+  </head>
+
+  <script>
+    $(function() {
+      $('.tabs').tabs();
+    })
+  </script>
+
+  <body>
+
+    <ul class="tabs" data-content-tabs="content-tabs">
+      <li><a href="#cool-dogs" class="active">cool dogs</a></li>
+      <li><a href="#Old-English-Sheepdog">Old English Sheepdog</a></li>
+      <li>
+        <a href="#happy-dogs-I-mean-all-dogs-always">
+          happy dogs I mean all dogs always
+        </a>
+      </li>
+    </ul>
+
+    <div id="content-tabs">
+      <section class="tab-pane active" id="cool-dogs">
+        <p>dogs are cool</p>
+      </section>
+      <section class="tab-pane" id="Old-English-Sheepdog">
+        <p>this dog is deaf</p>
+      </section>
+      <section class="tab-pane" id="happy-dogs-I-mean-all-dogs-always">
+        <p>dogs are always happy hehehehehehe</p>
+      </section>
+    </div>
+  </body>
+</html>
